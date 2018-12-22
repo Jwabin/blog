@@ -121,10 +121,6 @@ ul{
 	border-radius: 3px;
 	transition: all .4s ease-in;
 }
-
-.button:hover{
-	background: #005c7b;
-}
 /*Media Queries*/
 
 /* @900px*/
