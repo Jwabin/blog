@@ -101,9 +101,8 @@ ul{
 	font-size: 1.4em;
 	border-radius: 3px;
 	transition: all .4s ease-in;
+/* made by @robinsimons*/
 }
-/*Media Queries*/
-
 /* @900px*/
 @media only screen and (max-width: 56.25em) {
 	.col{ margin: 1% 0 1% 0%;}
