@@ -50,13 +50,6 @@ ul{
 	display: inline-block;
 	padding: 20px;
 	font-size: 1.4em;
-	-webkit-transition: background .5s;
-	transition: background .5s
-}
-
-.balk:hover{
-	background: #474747;
-	cursor: pointer;
 }
 
 .container{
@@ -96,13 +89,6 @@ ul{
 	color: #009ACD;
 	font-style: italic;
 	transition: all 0.4s;
-}
-
-.post-link:hover{
-	color: #005c7b;
-	text-decoration: underline;
-	text-decoration-color: currentColor;
-	cursor: pointer;
 }
 
 .button{
