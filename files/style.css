@@ -1,0 +1,230 @@
+body{
+	margin: 0;
+	padding: 0;
+	line-height: 1.4em;
+	background: #474747;
+	font-family: 'Lato', sans-serif;
+	position: relative;
+    padding-bottom: 6rem;
+    min-height: 97%;
+}
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+div.gallerijrechts{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 500px;
+  margin-right: 140px;
+  background: white;
+}
+div.gallerijmidden{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 500px;
+  background: white;
+}
+div.gallerijlinks{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 500px;
+  margin-left: 140px;
+  background: white;
+}
+div.gallerij:hover {
+  border: 2px solid #777;
+}
+div.gallerijrechts img {
+  width: 100%;
+}
+div.gallerijmidden img {
+  width: 100%;
+}
+div.gallerijlinks img {
+  width: 100%;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.posts {
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+
+}
+header{
+	max-width: 100%;
+	background: rgba(0,0,0,.6);
+	padding: 20px;
+}
+
+nav{
+	width: 100%;
+	margin-bottom: 1em;
+	background: #323232;
+	font-family: 'Poiret One', cursive;
+}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #323232;
+  text-align: center;
+  color: white;
+  text-align: center;
+}
+.titel{
+	text-align: center;
+	color: #fff;
+	font-size: 3em;
+	font-weight: 400;
+	font-family: 'Poiret One', cursive;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	color: #fff;
+	text-align: center;
+}
+
+.balk{
+	display: inline-block;
+	padding: 20px;
+	font-size: 1.4em;
+}
+.balkonder {
+	display: inline-block;
+	padding: 20px;
+	font-size: 1.4em;
+	margin-bottom: 0px;
+}
+
+.container{
+	max-width: 1020px;
+	margin-left: 200px;
+	padding: 20px;
+}
+.container-foto {
+	max-width: 1141px;
+	margin-left: 200px;
+	padding:20px;
+}
+.blog-post{
+	background: #fff;
+	margin: 0 auto 2em auto;
+	padding: 35px 30px;
+	box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.3);
+}
+
+.blogcontent{
+	font-size: 1em;
+	border-left: 5px solid #8EE5EE;
+	padding-left: 15px;
+}
+.vraag {
+	font-size: 30px;
+	border-left: 5px solid #8EE5EE;
+	padding-left: 15px;
+}
+.fotos {
+	font-size: 30px;
+	border-left: 5px solid #8EE5EE;
+	padding-left: 15px;
+}
+.donatecontent {
+	font-size: 25px;
+	border-left: 5px solid #8EE5EE;
+	padding-left: 15px;
+}
+
+.rood{
+	font-size: 1em;
+	border-left: 5px solid red;
+	padding-left: 15px;
+}
+.oranje{
+	font-size: 1em;
+	border-left: 5px solid orange;
+	padding-left: 15px;
+}
+.groen{
+	font-size: 1em;
+	border-left: 5px solid green;
+	padding-left: 15px;
+}
+.roodlegende{
+	font-size: 12px;
+	border-left: 4px solid red;
+	padding-left: 5px;
+	font-family: cursive;
+}
+.oranjelegende{
+	font-size: 12px;
+	border-left: 4px solid orange;
+	padding-left: 5px;
+	font-family: cursive;
+}
+.groenlegende{
+	font-size: 12px;
+	border-left: 4px solid green;
+	padding-left: 5px;
+	font-family: cursive;
+}
+.donate{
+	font-size: 30px;
+	border-left: 5px solid green;
+	padding-left: 15px;
+}
+.blogtitel{
+	font-size: 2.5em;
+	margin-top: 5px;
+}
+.name{
+	font-size: 2.5em;
+	margin-top: 5px;
+}
+.datum{
+	font-size: 1em;
+	font-weight: 400;
+	color: #9C9C9C;
+	margin-top: -10px;
+	text-decoration: underline;
+	text-decoration-color: currentColor;
+}
+
+.post-lees meer{
+	color: #009ACD;
+	font-style: italic;
+	transition: all 0.4s;
+}
+
+.button{
+	display: block;
+	padding: 15px 20px;
+	margin-top: .8em;
+	background: #009ACD;
+	text-align: center;
+	color: #fff;
+	font-size: 1.4em;
+	border-radius: 3px;
+	transition: all .4s ease-in;
+/* made by @robinsimons*/
